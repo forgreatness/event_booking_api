@@ -1,0 +1,10 @@
+{
+    "env": {
+        "MONGO_USER": "graphQLAPI",
+        "MONGO_PASSWORD": "danh123",
+        "MONGO_DB_NAME": "event_booking",
+        "MONGO_PORT": 27017,
+        "MONGO_HOST": "localhost",
+        "PORT": 3000
+    }
+}
