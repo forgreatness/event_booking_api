@@ -27,6 +27,3 @@ const eventSchema = new Schema({
 });
 
 module.exports = mongoose.model('Event', eventSchema);
-
-// const { getDBReference } = require('../lib/mongo.js');
-

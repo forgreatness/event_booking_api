@@ -4,7 +4,7 @@ const graphQLHttp = require('express-graphql');
 
 const { connectToDB } = require('./lib/mongo.js');
 const graphQLSchema = require('./graphql/schema.js');
-const graphQLResolvers = require('./graphql/resolvers.js');
+const graphQLResolvers = require('./graphql/resolvers/index.js');
 
 const app = express();
 
